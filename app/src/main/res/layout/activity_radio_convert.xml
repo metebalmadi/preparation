@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RadioConvert">
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Enter Weight"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <Button
+        android:id="@+id/bttnCalc"
+        android:layout_width="238dp"
+        android:layout_height="66dp"
+        android:text="Calc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881" />
+
+    <TextView
+        android:id="@+id/textView333"
+        android:layout_width="238dp"
+        android:layout_height="66dp"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <RadioGroup
+        android:layout_width="294dp"
+        android:layout_height="147dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="263dp"
+            android:layout_height="61dp"
+            android:text="To Kilos" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="264dp"
+            android:layout_height="59dp"
+            android:text="To Pounds" />
+    </RadioGroup>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

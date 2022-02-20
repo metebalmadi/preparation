@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">preparation</string>
+
+    <array name="spinnerArray">
+        <item>op1</item>
+        <item>op2</item>
+
+    </array>
+</resources>
